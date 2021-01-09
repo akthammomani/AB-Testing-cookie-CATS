@@ -1,6 +1,6 @@
-# AB_Testing_cookie_CATS
+# A/B Testing: Cookie CATS
 
-## 1. Of cats and cookies
+## Cookie CATS Introduction:
 **Cookie CATS** is a hugely popular mobile puzzle game developed by <a href="http://tactile.dk">Tactile Entertainment</a>. It's a classic "connect three"-style puzzle game where the player must connect tiles of the same color to clear the board and win the level. It also features singing cats. We're not kidding! Check out this short demo:</p>
 
 
