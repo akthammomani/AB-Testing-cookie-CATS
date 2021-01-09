@@ -26,3 +26,11 @@
 <li><code>retention_7</code> - did the player come back and play <strong>7 days</strong> after installing?</li>
 </ul>
 <p>When a player installed the game, he or she was randomly assigned to either <code>gate_30</code> or <code>gate_40</code>. As a sanity check, let's see if there are roughly the same number of players in each AB group. </p>
+
+## 3. The Bootstrap Analysis:
+
+It appears that there was a slight decrease in 1-day retention when the gate was moved to level 40 (44.2%) compared to the control when it was at level 30 (44.8%). It's a small change, but even small changes in retention can have a large impact. But while we are certain of the difference in the data, how certain should we be that a gate at level 40 will be worse in the future?
+
+There are a couple of ways we can get at the certainty of these retention numbers. Here we will use bootstrapping: We will repeatedly re-sample our dataset (with replacement) and calculate 1-day retention for those samples. The variation in 1-day retention will give us an indication of how uncertain the retention numbers are:
+
+![bootstrap](https://user-images.githubusercontent.com/67468718/104092207-3b823500-5237-11eb-8350-bc69f627f9d2.JPG)
