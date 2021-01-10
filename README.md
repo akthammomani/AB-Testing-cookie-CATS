@@ -13,7 +13,7 @@
 ![Gates](https://user-images.githubusercontent.com/67468718/104091125-379ee480-5230-11eb-881d-7d37c2811f36.JPG)
 
 
-<p>But where should the gates be placed? Initially the first gate was placed at level 30, but in this notebook we're going to analyze an AB-test where we moved the first gate in Cookie Cats from level 30 to level 40. In particular, we will look at the impact on player retention. But before we get to that, a key step before undertaking any analysis is understanding the data. So let's load it in and take a look!</p>
+<p>But where should the gates be placed? Initially the first gate was placed at level 30, but in this project we're going to analyze an AB-test where we moved the first gate in Cookie Cats from level 30 to level 40. In particular, we will look at the impact on player retention. 
 
 
 ## 2. The AB-test data:
